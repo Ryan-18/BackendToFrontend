@@ -1,8 +1,6 @@
-# React + Vite
+# React + Vite + express
+used proxy to overcome cors (cross origin) error 
+and to fetch the data from api , axios a npm package is used 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+npm build > will create a dis folder which is react compiled folder 
+this folder can be used in backend by using middleware
